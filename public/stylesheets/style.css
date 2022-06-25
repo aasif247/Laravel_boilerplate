@@ -1,0 +1,20 @@
+/*
+     * Author           :         System Decoder
+     * App Version      :         1.0.0
+     * Email            :         contact@systemdecoder.com
+     * Author URL       :         https://www.systemdecoder.com
+*/
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+form label {
+    font-weight:bold !important;
+    color: black !important;
+}
+
+input.passCodeHash {
+    -webkit-text-security: disc;
+}
